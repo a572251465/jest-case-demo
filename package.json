@@ -1,0 +1,17 @@
+{
+  "name": "jest-case-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.20.0",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1"
+  }
+}
