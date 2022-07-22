@@ -6,4 +6,8 @@ describe('Test boolean', () => {
   test('case 2', () => {
     expect(false).toBeFalsy()
   })
+
+  test('case 3 not', () => {
+    expect(false).not.toBeTruthy()
+  })
 })
