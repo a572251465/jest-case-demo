@@ -25,8 +25,10 @@ describe('Test Fn Call', () => {
 
   test('Fn Call Returns', () => {
     const cb = jest.fn()
-    cb.mockReturnValueOnce('123')
-
+    // cb.mockReturnValueOnce('123')
+    cb.mockImplementation(() => {
+      return '123'
+    })
     runCallback(cb)
     expect(cb.mock.results[0].value).toBe('123')
   })
